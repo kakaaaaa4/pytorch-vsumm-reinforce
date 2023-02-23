@@ -35,7 +35,7 @@ parser.add_argument('--rnn-cell', type=str, default='lstm', help="RNN cell type 
 # Optimization options
 parser.add_argument('--lr', type=float, default=1e-05, help="learning rate (default: 1e-05)")
 parser.add_argument('--weight-decay', type=float, default=1e-05, help="weight decay rate (default: 1e-05)")
-parser.add_argument('--max-epoch', type=int, default=60, help="maximum epoch for training (default: 60)")
+parser.add_argument('--max-epoch', type=int, default=20000, help="maximum epoch for training (default: 60)")
 parser.add_argument('--stepsize', type=int, default=30, help="how many steps to decay learning rate (default: 30)")
 parser.add_argument('--gamma', type=float, default=0.1, help="learning rate decay (default: 0.1)")
 parser.add_argument('--num-episode', type=int, default=5, help="number of episodes (default: 5)")
